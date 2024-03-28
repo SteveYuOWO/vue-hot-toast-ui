@@ -1,30 +1,19 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+import { BeakerIcon, BoltIcon } from './icons'
 </script>
 
 <template>
   <div>
-    <a href="https://vitejs.dev" target="_blank">
+    <p class="tw-bg-gradient-to-r tw-from-yellow-300 tw-to-orange-600 tw-p-3 tw-rounded-xl tw-text-white">Hello</p>
+    <BeakerIcon class="tw-h-6 tw-w-6 tw-text-orange-600" />
+    <BoltIcon class="tw-h-6 tw-w-6 tw-text-orange-600" />
+    <!-- <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+    </a> -->
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <HelloWorld msg="Vue-Hot-Toast" />
 </template>
-
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
