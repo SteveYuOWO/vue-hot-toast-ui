@@ -1,7 +1,7 @@
 <template>
-  <div>
-    About
-    <router-link to="/about/history">history</router-link>
+  <div class="tw-text-white">
+    <router-link to="/about">about</router-link>
+    <router-link to="/about/history" class="tw-text-white">history</router-link>
     <div>
       <RouterView />
     </div>
