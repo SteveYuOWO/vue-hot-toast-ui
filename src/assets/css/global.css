@@ -2,8 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #000;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ff581c;
+  border-radius: 20px;
+  border: 2px solid #000000;
+}
+
+body {
+  background-image: url('../../../public/background.jpg');
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh
+}
+
+
 :root {
-  --primary-backgrond-color: #fff;
+  --primary-backgrond-color: #000000;
   --primary-font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   --primary-font-size: 16px;
 }
